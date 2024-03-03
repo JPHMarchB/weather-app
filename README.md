@@ -13,7 +13,7 @@ Welcome to the Weather App! This application provides real-time weather updates 
 - HTML5
 - CSS3
 - JavaScript
-- OpenWeather API
+- [OpenWeather API](https://openweathermap.org/)
 
 ## Installation
 
