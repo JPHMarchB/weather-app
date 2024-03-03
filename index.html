@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Content body -->
+    <div class="card">
+
+        <!-- Search bar -->
+        <div class="search-bar">
+            <label for="search"></label>
+            <input type="search" name="search" id="search" placeholder="Search">
+            <img src="public/search.svg" alt="search icon">
+        </div>
+
+        <!-- Weather image -->
+        <img class="weather" src="public/brightness-high-fill.svg" alt="Sunny image">
+        
+        <!-- City and Temp -->
+        <div class="temp-city">
+            <h1>Albuquerque, NM</h1>
+            <h2>52°F</h2>
+        </div>
+
+        <!-- Humidity and wind -->
+        <div class="humid-wind">
+
+            <!-- Humidity -->
+            <div class="info-content">
+
+                <!-- Humidity svg -->
+                <img src="public/water.svg" alt="humidity image">
+
+                <!-- Humidity text -->
+                <p>24%<br>Humidity</p>
+            </div>
+
+            <!-- Wind speed -->
+            <div class="info-content">
+
+                <!-- Wind svg -->
+                <img src="public/wind.svg" alt="wind image">
+
+                <!-- Wind text -->
+                <p>15 mph<br>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

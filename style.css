@@ -1,0 +1,70 @@
+body {
+    background: #222;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.card {
+    text-align: center;
+    margin: 0 30rem;
+    padding: 2rem;
+    border-radius: 15px;
+    background-image: linear-gradient(#daeaf7, #4fa5d8);
+}
+
+input {
+    color: black;
+    border-radius: 10px;
+    padding: 15px 5px;
+    border: none;
+    outline: none;
+    width: 20rem;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    font-size: 2rem;
+}
+
+.search-bar img {
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.weather {
+    padding: 3rem;
+}
+
+.temp-city {
+    padding-top: 2rem;
+}
+
+.temp-city h2 {
+    font-size: 4rem;
+}
+
+.humid-wind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 2rem;
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: left;
+}
+
+div p {
+    font-size: 1.5rem;
+}
