@@ -19,14 +19,22 @@
             <input type="search" name="search" id="search" placeholder="Search">
             <img src="public/search.svg" alt="search icon">
         </div>
+        <p class="error">Invalid City!</p>
+
+        <!-- Weather content -->
+        <div class="weather">
 
         <!-- Weather image -->
-        <img class="weather" src="public/brightness-high-fill.svg" alt="Sunny image">
+        <img class="weather-icon" src="public/weather-status-images/clear.png" alt="Sunny image">
         
         <!-- City and Temp -->
         <div class="temp-city">
-            <h1>Albuquerque, NM</h1>
-            <h2>52°F</h2>
+
+            <!-- Temp -->
+            <h1><span class="temp">52</span>°F</h1>
+
+            <!-- City and country -->
+            <h2><span class="city">Albuquerque</span>, <span class="country">US</span></h2>
         </div>
 
         <!-- Humidity and wind -->
@@ -39,7 +47,7 @@
                 <img src="public/water.svg" alt="humidity image">
 
                 <!-- Humidity text -->
-                <p>24%<br>Humidity</p>
+                <p><span class="humid">0</span>%<br>Humidity</p>
             </div>
 
             <!-- Wind speed -->
@@ -49,8 +57,9 @@
                 <img src="public/wind.svg" alt="wind image">
 
                 <!-- Wind text -->
-                <p>15 mph<br>Wind Speed</p>
+                <p><span class="wind">0</span> mp/h<br>Wind Speed</p>
             </div>
+        </div>
         </div>
     </div>
 
