@@ -36,7 +36,7 @@ To run the Weather App locally:
 - After account creation go to the profile dropdown and select "My API Keys"
 - Generate and copy your new API Key
 - After opening up your IDE create a new file named `script.js` and base it off the `example.script.js` file
-- Replace the "apiKey" variable placeholder string, with your API Key 
+- Replace the `apiKey` variable placeholder string, with your API Key 
 - Upon opening the app, you will see a search bar
 - Search the city of your choice!
 
