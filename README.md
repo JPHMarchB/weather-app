@@ -2,11 +2,18 @@
 
 Welcome to the Weather App! This application provides real-time weather updates and forecasts for cities around the world.
 
+## Images
+
+![Empty Search](https://github.com/JPHMarchB/weather-app/assets/153705879/d90e7eb2-6974-4ed3-9998-9ec313d0c5ac)
+![Invalid City](https://github.com/JPHMarchB/weather-app/assets/153705879/5f77e8c1-4f07-4132-9524-fb9ce5677754)
+![City Search](https://github.com/JPHMarchB/weather-app/assets/153705879/41519c8f-e84c-4500-b5ca-4dbb4090278d)
+
 ## Features
 
-- **Current Weather:** Get up-to-date information on the current weather conditions, including temperature, humidity, and wind speed!
-- **Hourly Forecast:** View hourly forecasts to plan your day ahead, with detailed information on temperature changes and weather conditions.
-- **Customizable Settings:** Customize the app to suit your preferences, including units of measurement (e.g., Celsius or Fahrenheit) and weather display options.
+- **Current Temp:** Get up-to-date information on the current temperature and weather conditions!
+- **Current Wind Speed:** Get up-to-date information on the current wind speed!
+- **Current Humidity:** Get up-to-date information on the current humidity percentage!
+
 
 ## Technologies Used
 
@@ -25,8 +32,18 @@ To run the Weather App locally:
 
 ## Usage
 
-- Upon opening the app, you will see the current weather conditions for your location.
-- Customize settings such as units of measurement and weather display preferences in the settings menu.
+- First, you'll want to create an account on [OpenWeather API](https://openweathermap.org/) to get an API Key
+- After account creation go to the profile dropdown and select "My API Keys"
+- Generate and copy your new API Key
+- After opening up your IDE create a new file named "script.js" and base it off the "example.script.js" file
+- Replace the "apiKey" variable placeholder string, with your API Key 
+- Upon opening the app, you will see a search bar
+- Search the city of your choice!
+
+## Acknowledgments
+
+[Background Image](https://unsplash.com/photos/white-clouds-and-blue-sky-during-daytime-Vun-71Vy2hc)
+
 
 ## License
 
